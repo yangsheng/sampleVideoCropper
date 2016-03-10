@@ -15,6 +15,14 @@
 		0485A5B31C910E6700E8CA6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0485A5B11C910E6700E8CA6B /* LaunchScreen.storyboard */; };
 		0485A5BE1C910E6700E8CA6B /* sampleVideoCropperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5BD1C910E6700E8CA6B /* sampleVideoCropperTests.swift */; };
 		0485A5C91C910E6700E8CA6B /* sampleVideoCropperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5C81C910E6700E8CA6B /* sampleVideoCropperUITests.swift */; };
+		0485A5E11C910EFA00E8CA6B /* SAResizibleBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5DA1C910EFA00E8CA6B /* SAResizibleBubble.m */; };
+		0485A5E21C910EFA00E8CA6B /* SASliderLeft.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5DC1C910EFA00E8CA6B /* SASliderLeft.m */; };
+		0485A5E31C910EFA00E8CA6B /* SASliderRight.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5DE1C910EFA00E8CA6B /* SASliderRight.m */; };
+		0485A5E41C910EFA00E8CA6B /* SAVideoRangeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 0485A5E01C910EFA00E8CA6B /* SAVideoRangeSlider.m */; };
+		0485A5E91C910FAC00E8CA6B /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0485A5E81C910FAC00E8CA6B /* 1.mp4 */; };
+		0485A5EC1C91106400E8CA6B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485A5EB1C91106400E8CA6B /* QuartzCore.framework */; };
+		0485A5EE1C91107300E8CA6B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485A5ED1C91107300E8CA6B /* AVFoundation.framework */; };
+		0485A5F01C91107C00E8CA6B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0485A5EF1C91107C00E8CA6B /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,19 @@
 		0485A5C41C910E6700E8CA6B /* sampleVideoCropperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleVideoCropperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0485A5C81C910E6700E8CA6B /* sampleVideoCropperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleVideoCropperUITests.swift; sourceTree = "<group>"; };
 		0485A5CA1C910E6700E8CA6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0485A5D91C910EFA00E8CA6B /* SAResizibleBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAResizibleBubble.h; sourceTree = "<group>"; };
+		0485A5DA1C910EFA00E8CA6B /* SAResizibleBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAResizibleBubble.m; sourceTree = "<group>"; };
+		0485A5DB1C910EFA00E8CA6B /* SASliderLeft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderLeft.h; sourceTree = "<group>"; };
+		0485A5DC1C910EFA00E8CA6B /* SASliderLeft.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderLeft.m; sourceTree = "<group>"; };
+		0485A5DD1C910EFA00E8CA6B /* SASliderRight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SASliderRight.h; sourceTree = "<group>"; };
+		0485A5DE1C910EFA00E8CA6B /* SASliderRight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SASliderRight.m; sourceTree = "<group>"; };
+		0485A5DF1C910EFA00E8CA6B /* SAVideoRangeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAVideoRangeSlider.h; sourceTree = "<group>"; };
+		0485A5E01C910EFA00E8CA6B /* SAVideoRangeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAVideoRangeSlider.m; sourceTree = "<group>"; };
+		0485A5E81C910FAC00E8CA6B /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		0485A5EA1C910FDE00E8CA6B /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0485A5EB1C91106400E8CA6B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0485A5ED1C91107300E8CA6B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0485A5EF1C91107C00E8CA6B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0485A5F01C91107C00E8CA6B /* CoreMedia.framework in Frameworks */,
+				0485A5EE1C91107300E8CA6B /* AVFoundation.framework in Frameworks */,
+				0485A5EC1C91106400E8CA6B /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +103,8 @@
 		0485A5991C910E6700E8CA6B = {
 			isa = PBXGroup;
 			children = (
+				0485A5E51C910F7700E8CA6B /* vid */,
+				0485A5D71C910E9C00E8CA6B /* Library */,
 				0485A5A41C910E6700E8CA6B /* sampleVideoCropper */,
 				0485A5BC1C910E6700E8CA6B /* sampleVideoCropperTests */,
 				0485A5C71C910E6700E8CA6B /* sampleVideoCropperUITests */,
@@ -101,6 +127,7 @@
 			children = (
 				0485A5A51C910E6700E8CA6B /* AppDelegate.swift */,
 				0485A5A71C910E6700E8CA6B /* ViewController.swift */,
+				0485A5EA1C910FDE00E8CA6B /* Bridging-Header.h */,
 				0485A5A91C910E6700E8CA6B /* Main.storyboard */,
 				0485A5AF1C910E6700E8CA6B /* Assets.xcassets */,
 				0485A5B11C910E6700E8CA6B /* LaunchScreen.storyboard */,
@@ -126,6 +153,40 @@
 				0485A5CA1C910E6700E8CA6B /* Info.plist */,
 			);
 			path = sampleVideoCropperUITests;
+			sourceTree = "<group>";
+		};
+		0485A5D71C910E9C00E8CA6B /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0485A5EF1C91107C00E8CA6B /* CoreMedia.framework */,
+				0485A5ED1C91107300E8CA6B /* AVFoundation.framework */,
+				0485A5EB1C91106400E8CA6B /* QuartzCore.framework */,
+				0485A5D81C910EFA00E8CA6B /* SAVideoRangeSlider */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0485A5D81C910EFA00E8CA6B /* SAVideoRangeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				0485A5D91C910EFA00E8CA6B /* SAResizibleBubble.h */,
+				0485A5DA1C910EFA00E8CA6B /* SAResizibleBubble.m */,
+				0485A5DB1C910EFA00E8CA6B /* SASliderLeft.h */,
+				0485A5DC1C910EFA00E8CA6B /* SASliderLeft.m */,
+				0485A5DD1C910EFA00E8CA6B /* SASliderRight.h */,
+				0485A5DE1C910EFA00E8CA6B /* SASliderRight.m */,
+				0485A5DF1C910EFA00E8CA6B /* SAVideoRangeSlider.h */,
+				0485A5E01C910EFA00E8CA6B /* SAVideoRangeSlider.m */,
+			);
+			path = SAVideoRangeSlider;
+			sourceTree = "<group>";
+		};
+		0485A5E51C910F7700E8CA6B /* vid */ = {
+			isa = PBXGroup;
+			children = (
+				0485A5E81C910FAC00E8CA6B /* 1.mp4 */,
+			);
+			path = vid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0485A5B31C910E6700E8CA6B /* LaunchScreen.storyboard in Resources */,
+				0485A5E91C910FAC00E8CA6B /* 1.mp4 in Resources */,
 				0485A5B01C910E6700E8CA6B /* Assets.xcassets in Resources */,
 				0485A5AB1C910E6700E8CA6B /* Main.storyboard in Resources */,
 			);
@@ -260,8 +322,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0485A5AE1C910E6700E8CA6B /* sampleVideoCropper.xcdatamodeld in Sources */,
+				0485A5E41C910EFA00E8CA6B /* SAVideoRangeSlider.m in Sources */,
 				0485A5A81C910E6700E8CA6B /* ViewController.swift in Sources */,
 				0485A5A61C910E6700E8CA6B /* AppDelegate.swift in Sources */,
+				0485A5E31C910EFA00E8CA6B /* SASliderRight.m in Sources */,
+				0485A5E11C910EFA00E8CA6B /* SAResizibleBubble.m in Sources */,
+				0485A5E21C910EFA00E8CA6B /* SASliderLeft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleVideoCropper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -418,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ii.sampleVideoCropper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 			};
 			name = Release;
 		};
